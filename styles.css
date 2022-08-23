@@ -131,7 +131,7 @@ h1 {
 
 
 .terms-and-services p {
-    padding: 0 40px 0 40px;
+    padding: 10px 40px 0 40px;
     color: var(--grayish-blue);
     font-size: 10px;
 }
