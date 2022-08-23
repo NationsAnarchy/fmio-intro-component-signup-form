@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main>
+
+    <div class="introduction">
+      <h1>Learn to code by watching others</h1>
+      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but
+        understanding how developers think is invaluable.</p>
+    </div>
+
+    <div class="signup-section">
+      <div class="trial-card">
+        <section><b>Try it free 7 days</b> then $20/mo. thereafter</section>
+      </div>
+      <div class="signup-form">
+        <form action="">
+          <input type="text" label="first-name" placeholder="First Name" required pattern="^[A-Z][-a-zA-Z]+$"
+            title="Input your first name here">
+          <input type="text" label="last-name" placeholder="Last Name" required pattern="^[A-Z][-a-zA-Z]+$"
+            title="Input your last name here">
+          <input type="email" label="email-address" placeholder="Email Address" required
+            title="Input your email address here">
+          <input type="password" label="password" placeholder="Password" required pattern=".{0}|.{8,}"
+            title="Password must be at least 8 characters">
+          <button type="submit">Claim your free trial</button>
+        </form>
+        <p>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a>.</p>
+      </div>
+    </div>
+
+  </main>
+</body>
+
+</html>
